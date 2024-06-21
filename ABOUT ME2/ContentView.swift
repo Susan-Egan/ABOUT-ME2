@@ -35,7 +35,7 @@ struct ContentView: View {
                 .shadow(radius:15)
                 .padding()
                 
-                
+                Spacer()
             }
             
             VStack(alignment: .leading, spacing:20.0) {
@@ -51,7 +51,7 @@ struct ContentView: View {
                     
                 }
                 
-                Text("I have been doing competitive dance for 8 years. This photo is from a competitiocvbhjuytgfcvbnjiuygvn ")
+                Text("I have been doing competitive dance for 8 years.  ")
             }
             .padding()
             .background(Rectangle().foregroundColor(.white))
